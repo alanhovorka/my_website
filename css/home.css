@@ -5,3 +5,11 @@ body {
   padding: 40px 15px;
   text-align: center;
 }
+
+.bg-dkblue {
+	background-color: #3d7b8d
+}
+.main_container {
+	background-color: #eaebed
+}
+
