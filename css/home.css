@@ -7,9 +7,41 @@ body {
 }
 
 .bg-dkblue {
-	background-color: #3d7b8d
-}
-.main_container {
-	background-color: #eaebed
+	background-color: #3d7b8d;
+	border: none;
 }
 
+.navbar-inverse .navbar-text {
+  color: white;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.25)
+}
+.main_container {
+	background-color: #eaebed;
+}
+.btn-custom {
+	  color: #fff;
+  background-color: #3d7b8d;
+  border-color: #3d7b8d;
+}
+
+.btn-custom:hover {
+	  color: #fff;
+  background-color: #3d7b8d;
+  border-color: #3d7b8d;
+}
