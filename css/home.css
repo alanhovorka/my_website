@@ -111,10 +111,11 @@ padding: 0;
 	/*adjust padding for this element*/
 }
 
-/*styling for thumbnail tags and portfolio sorting*/
+/*styling for thumbnail tags and portfolio sorting
+	color: #C05A40;*/
 
 #data {
-	color: #C05A40;
+	color: #9F2D1B;
 }
 
 #enterprise {
