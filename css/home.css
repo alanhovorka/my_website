@@ -6,27 +6,7 @@ body {
   padding-top: 50px;
 }
 
-a {
-  text-decoration: none;
-  color: #3d7b8d;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #3d7b8d;
-}
-
-a:active {
-  text-decoration: none;
-  color: #3d7b8d;
-}
-
-a:visited {
-  text-decoration: none;
-  color: #3d7b8d;
-}
-
-a:link, a:visited {
+a:not(.navbar) {
   text-decoration: none;
   color: #3d7b8d;
 }
@@ -125,6 +105,40 @@ border-bottom-left-radius: 0;
 border-bottom-right-radius: 0;
 border: none;
 padding: 0;
+}
+
+.btn-group-cus {
+  /*adjust padding for this element*/
+}
+
+/*styling for thumbnail tags and portfolio sorting*/
+
+#data {
+  color: #C05A40;
+}
+
+#enterprise {
+  
+}
+
+#coding {
+  color: #74C3D9;
+}
+
+#feature {
+
+}
+
+#watchdog {
+
+}
+
+#records {
+
+}
+
+#other {
+
 }
 
 .shadow:hover {
