@@ -6,9 +6,34 @@ body {
 	padding-top: 50px;
 }
 
-a:not(.navbar) {
-	text-decoration: none;
-	color: #3d7b8d;
+a {
+  text-decoration: none;
+  color: #3d7b8d;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #3d7b8d;
+}
+
+a:active {
+  text-decoration: none;
+  color: #3d7b8d;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #3d7b8d;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #3d7b8d;
+}
+
+.caption a h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 .starter-template {
@@ -16,13 +41,9 @@ a:not(.navbar) {
 	text-align: center;
 }
 
-/*.main_container {
-background-color: #DCDCDC; 
-}*/
-
 .head_container {
 	background-color: #fff;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	padding-bottom: 20px;
 	padding-top: 20px;
 	padding-left: 0px;
@@ -96,7 +117,7 @@ background-color: #DCDCDC;
 	color: white;
 	background-color: #3d7b8d;
 	border-top-color: #3d7b8d;
-
+	
 }
 
 .thumbnail-custom {
@@ -105,41 +126,49 @@ border-bottom-left-radius: 0;
 border-bottom-right-radius: 0;
 border: none;
 padding: 0;
+margin-top: 0;
 }
 
-.btn-group-cus {
-	/*adjust padding for this element*/
-}
-
-/*styling for thumbnail tags and portfolio sorting
-	color: #C05A40;*/
-
-#data {
-	color: #9F2D1B;
-}
-
-#enterprise {
+.tag {
 	color: #147632;
+	font-variant: small-caps;
+	margin-bottom: 0;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-radius: 0;
+	font-size: 12px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-right-width: 0px;
+	border-left: 0px;
+	border-top-color: #147632;
+	border-bottom-color: #147632; 
 }
 
-#coding {
-	color: #74C3D9;
+a.tag {
+	color: #147632;
+	text-decoration: none;
 }
 
-#feature {
-	color: #C49A38
+a.tag:hover {
+	color: #147632;
+	text-decoration: none;
+}
+a.tag:active{
+	color: #147632;
+	text-decoration: none;	
 }
 
-#watchdog {
-
+a.tag:visited{
+	color: #147632;
+	text-decoration: none;	
 }
 
-#records {
-	color: #FFC78F;
-}
-
-#other {
-
+a.tag:link, a.tag:visited {
+	color: #147632;
+	text-decoration: none;
 }
 
 .shadow:hover {
