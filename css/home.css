@@ -121,12 +121,12 @@ a:link, a:visited {
 }
 
 .thumbnail-custom {
-margin-bottom: 0;
+margin-bottom: 10px;
 border-bottom-left-radius: 0;
 border-bottom-right-radius: 0;
 border: none;
 padding: 0;
-margin-top: 0;
+margin-top: 10px;
 }
 
 .tag {
@@ -198,3 +198,54 @@ a.tag:link, a.tag:visited {
 
 }
 
+#requests, #agencies, #records, #pages {
+font-weight: bold;
+}
+
+
+#records {
+margin-right: 5px;
+}
+
+#brand-label {
+	font-variant: all-small-caps;
+	line-height: 1;
+}
+
+.grid {
+  max-width: 100%;
+}
+
+.photo-cred {
+	font-size: 11px;
+	font-variant: all-small-caps;
+}
+
+/*insert media query for desktop and mobile, some funky transition stuff. Maybe check that out and how to delay*/
+
+@media screen and (max-width: 600px) and (min-width: 400px)  
+{.grid-sizer, .grid-item {
+	width: 100%; 
+	min-height: 1px;
+	margin-left: 12px;
+	margin-right: 12px;}
+}
+@media screen and (min-width: 1200px) 
+{.grid-sizer, .grid-item {
+	width: 30%; 
+	min-height: 1px;
+	margin-left: 12px;
+	margin-right: 12px;}
+}
+
+@media screen and (min-width: 601px) and (max-width: 1199px) {
+
+	.grid-sizer, .grid-item {
+
+	width: 28%; 
+	min-height: 1px;
+	margin-left: 12px;
+	margin-right: 12px;}
+
+
+}

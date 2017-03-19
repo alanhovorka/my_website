@@ -14,6 +14,8 @@
 	</head>
 
 	<body class="main_container">
+			<script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.js"></script>
+
 		<nav class="navbar navbar-inverse navbar-fixed-top bg-dkblue nav-cus" id="nav">
 			<div class="container">
 				<div class="navbar-header">
@@ -34,7 +36,7 @@
 					<ul class="nav navbar-nav nav-cus">
 						<li><a href="home.html">Home</a></li>
 						<li><a href="portfolio.html">Portfolio</a></li>
-						<li><a href="resume.html">Resume</a></li>
+						<li><a href="https://drive.google.com/file/d/0B4Oy2WbH-FgIRTFTRlJ2bXh4VU0/view" target="_blank">Resume</a></li>
 						<li><a href="contact.html">Contact and about</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right nav-cus">
@@ -69,41 +71,139 @@
 				<div class="col-sm-6">
 							<img src="assets/logo-01.svg" alt="Alan Hovorka: Journalist. Data Junkie. FOIA Fighter" class="img-responsive">
 				</div>
+				
+				<!--fix the grid here, maybe a row-->
+
 				<div class="row col-sm-6">
 					<div class="col-sm-2" id="requests">
-						
-						<strong>
+						<h1></h1>
+						<p id="brand-label">
 							Requests filed
-						</strong>
+						</p>
 					</div>
 					<div class="col-sm-2" id="agencies">
-					
-						<strong>
+						<h1></h1>					
+						<p id="brand-label">
 							Agencies
-						</strong>
+						</p>
 					</div>
-					<div class="col-sm-2" id="records">
-						
-						<strong>
+					<div class="col-sm-3" id="records">
+						<h1></h1>						
+						<p id="brand-label">
 							Records obtained
-						</strong>
+						</p>
 					</div>
 					<div class="col-sm-2" id="pages">
-					
-						<strong>
+						<h1></h1>					
+						<p id="brand-label">
 							Pages released
-						</strong>
+						</p>
 					</div>
 				</div>
 			</div>
 			
 
-<!--Fix padding and alignment on images-->
+<!--Body content-->
 
 			<div class="col-sm-9">  
-				<div class="row"> <!-- begin row-->
 
-					<div class="col-sm-4">
+				<div class="grid"> <!-- begin row-->
+					<div class="grid-sizer"></div>	
+					<div class="grid-item" id="board">
+						<div class="shadow">
+							<div class="thumbnail thumbnail-custom">
+								<a href="#"  target="_blank">
+									<img src="assets/respect.jpg" alt="...">
+								</a>
+								<div class="caption">
+									<a href="#" class="btn btn-xs text-uppercase tag" role="button" target="_blank">Feature</a>
+									<a href="#" target="_blank">
+										<h3>Tradition of respect</h3>
+									</a>
+									<p>The lengths one veteran goes to honor the dead in a small Indiana town.</p>
+									<p class="photo-cred">Photo: Dave Weathwax | The Herald</p>
+								</div>
+							</div>
+								<a href="#" class="btn btn-block btn-md btn-custom text-uppercase" role="button" target="_blank">View more</a> 
+						</div>
+					</div>
+
+					<div class="grid-item">
+						<div class="shadow">
+							<div class="thumbnail thumbnail-custom">
+								<a href="#"  target="_blank">
+									<img src="assets/rocket_family.jpg" alt="...">
+								</a>
+								<div class="caption">
+									<a href="#" class="btn btn-xs text-uppercase tag" role="button" target="_blank">Feature</a>
+									<a href="#" target="_blank">
+										<h3>Aerospace interest launches family tradition</h3>
+									</a>
+									<p>Former teacher Jim Vaal shot model rockets off with his family for 15 years. This year the kids helped the master with his craft.</p>
+									<p class="photo-cred">Alisha Jucevic | The Herald</p>
+								</div>
+							</div>
+								<a href="#" class="btn btn-block btn-md btn-custom text-uppercase" role="button" target="_blank">View more</a> 
+						</div>
+					</div>
+
+
+					<div class="grid-item">
+						<div class="shadow">
+							<div class="thumbnail thumbnail-custom">
+								<a href="#"  target="_blank">
+									<img src="assets/gun_scare.png" alt="...">
+								</a>
+								<div class="caption">
+									<a href="#" class="btn btn-xs text-uppercase tag" role="button" target="_blank">Enterprise</a>
+									<a href="#" target="_blank">
+										<h3>Ohio State attack response contrasts Ball State's response to September gun scare</h3>
+									</a>
+									<p>Questions remain about what actually happened on a September night when Ball State reported a man with a gun on campus. It's likely the campus community will never know the whole story.</p>	
+								</div>
+							</div>
+								<a href="#" class="btn btn-block btn-md btn-custom text-uppercase" role="button" target="_blank">View more</a> 
+						</div>
+					</div>
+					<div class="grid-item" >
+						<div class="shadow">
+							<div class="thumbnail thumbnail-custom">
+								<a href="#"  target="_blank">
+									<img src="assets/board_complaint.jpg" alt="...">
+								</a>
+								<div class="caption">
+									<a href="#" class="btn btn-xs text-uppercase tag" role="button" target="_blank">Feature</a>
+									<a href="#" target="_blank">
+										<h3>Ball State board receives transparency complaint</h3>
+									</a>
+									<p>The university's new president committed to increasing transparency between the administration and the public in his first presidential address, but problems remain.</p>
+									<p class="photo-cred">Breanna Daugherty | The Daily News</p>								
+								</div>
+							</div>
+								<a href="#" class="btn btn-block btn-md btn-custom text-uppercase" role="button" target="_blank">View more</a> 
+						</div>
+					</div>
+
+					<div class="grid-item">
+						<div class="shadow">
+							<div class="thumbnail thumbnail-custom">
+								<a href="#"  target="_blank">
+									<img src="assets/respect.jpg" alt="...">
+								</a>
+								<div class="caption">
+									<a href="#" class="btn btn-xs text-uppercase tag" role="button" target="_blank">Feature</a>
+									<a href="#" target="_blank">
+										<h3>Tradition of respect</h3>
+									</a>
+									<p>The lengths one veteran goes to honor the dead in a small Indiana town.</p>
+									<p class="photo-cred">Breanna Daugherty | The Daily News</p>								
+								</div>
+							</div>
+								<a href="#" class="btn btn-block btn-md btn-custom text-uppercase" role="button" target="_blank">View more</a> 
+						</div>
+					</div>
+
+					<div class="grid-item">
 						<div class="shadow">
 							<div class="thumbnail thumbnail-custom">
 								<a href="#"  target="_blank">
@@ -121,7 +221,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="grid-item">
 						<div class="shadow">
 							<div class="thumbnail thumbnail-custom">
 								<a href="#"  target="_blank">
@@ -139,7 +239,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="grid-item">
 						<div class="shadow">
 							<div class="thumbnail thumbnail-custom">
 								<a href="#"  target="_blank">
@@ -157,8 +257,7 @@
 						</div>
 					</div>
 
-
-					<div class="col-sm-4">
+					<div class="grid-item">
 						<div class="shadow">
 							<div class="thumbnail thumbnail-custom">
 								<a href="#"  target="_blank">
@@ -176,7 +275,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="grid-item">
 						<div class="shadow">
 							<div class="thumbnail thumbnail-custom">
 								<a href="#"  target="_blank">
@@ -194,7 +293,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-4">
+					<div class="grid-item">
 						<div class="shadow">
 							<div class="thumbnail thumbnail-custom">
 								<a href="#"  target="_blank">
@@ -212,97 +311,7 @@
 						</div>
 					</div>
 
-					<div class="col-sm-4">
-						<div class="shadow">
-							<div class="thumbnail thumbnail-custom">
-								<a href="#"  target="_blank">
-									<img src="assets/respect.jpg" alt="...">
-								</a>
-								<div class="caption">
-									<a href="#" class="btn btn-xs text-uppercase tag" role="button" target="_blank">Feature</a>
-									<a href="#" target="_blank">
-										<h3>Tradition of respect</h3>
-									</a>
-									<p>The lengths one veteran goes to honor the dead in a small Indiana town.</p>
-								</div>
-							</div>
-								<a href="#" class="btn btn-block btn-md btn-custom text-uppercase" role="button" target="_blank">View more</a> 
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="shadow">
-							<div class="thumbnail thumbnail-custom">
-								<a href="#"  target="_blank">
-									<img src="assets/respect.jpg" alt="...">
-								</a>
-								<div class="caption">
-									<a href="#" class="btn btn-xs text-uppercase tag" role="button" target="_blank">Feature</a>
-									<a href="#" target="_blank">
-										<h3>Tradition of respect</h3>
-									</a>
-									<p>The lengths one veteran goes to honor the dead in a small Indiana town.</p>
-								</div>
-							</div>
-								<a href="#" class="btn btn-block btn-md btn-custom text-uppercase" role="button" target="_blank">View more</a> 
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="shadow">
-							<div class="thumbnail thumbnail-custom">
-								<a href="#"  target="_blank">
-									<img src="assets/respect.jpg" alt="...">
-								</a>
-								<div class="caption">
-									<a href="#" class="btn btn-xs text-uppercase tag" role="button" target="_blank">Feature</a>
-									<a href="#" target="_blank">
-										<h3>Tradition of respect</h3>
-									</a>
-									<p>The lengths one veteran goes to honor the dead in a small Indiana town.</p>
-								</div>
-							</div>
-								<a href="#" class="btn btn-block btn-md btn-custom text-uppercase" role="button" target="_blank">View more</a> 
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="shadow">
-							<div class="thumbnail thumbnail-custom">
-								<a href="#"  target="_blank">
-									<img src="assets/respect.jpg" alt="...">
-								</a>
-								<div class="caption">
-									<a href="#" class="btn btn-xs text-uppercase tag" role="button" target="_blank">Feature</a>
-									<a href="#" target="_blank">
-										<h3>Tradition of respect</h3>
-									</a>
-									<p>The lengths one veteran goes to honor the dead in a small Indiana town.</p>
-								</div>
-							</div>
-								<a href="#" class="btn btn-block btn-md btn-custom text-uppercase" role="button" target="_blank">View more</a> 
-						</div>
-					</div>
-
-					<div class="col-sm-4">
-						<div class="shadow">
-							<div class="thumbnail thumbnail-custom">
-								<a href="#"  target="_blank">
-									<img src="assets/respect.jpg" alt="...">
-								</a>
-								<div class="caption">
-									<a href="#" class="btn btn-xs text-uppercase tag" role="button" target="_blank">Feature</a>
-									<a href="#" target="_blank">
-										<h3>Tradition of respect</h3>
-									</a>
-									<p>The lengths one veteran goes to honor the dead in a small Indiana town.</p>
-								</div>
-							</div>
-								<a href="#" class="btn btn-block btn-md btn-custom text-uppercase" role="button" target="_blank">View more</a> 
-						</div>
-					</div>
-
-					<div class="col-sm-4">
+					<div class="grid-item">
 						<div class="shadow">
 							<div class="thumbnail thumbnail-custom">
 								<a href="#"  target="_blank">
@@ -339,6 +348,7 @@
 		<script src="https://use.fontawesome.com/858e3e0509.js"></script>
 		<script src="https://d3js.org/d3.v4.js"></script>
 		<script src="js/index.js"></script>
+
 		<!--\[T]/ PRAISE THE SUN \[T]/-->
 		
 	</body>
