@@ -120,6 +120,24 @@ a:link, a:visited {
 	
 }
 
+.btn-custom-2 {
+	color: white;
+	background-color: #3d7b8d;
+	border-top-color: #3d7b8d;
+	border-radius: 0;
+	margin-top: 5px;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+.btn-custom-2:hover {
+	color: white;
+	background-color: #3d7b8d;
+	border-top-color: #3d7b8d;
+	
+}
+
+
 .thumbnail-custom {
 margin-bottom: 10px;
 border-bottom-left-radius: 0;
@@ -174,8 +192,32 @@ a.tag:visited{
 	text-decoration: none;	
 }
 
-a.tag:link, a.tag:visited {
-	color: #147632;
+a.btn-custom-2:link, a.btn-custom-2:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a.btn-custom-2 {
+	color: white;
+	text-decoration: none;
+}
+
+a.btn-custom-2:hover {
+	color: white;
+	text-decoration: none;
+}
+a.btn-custom-2:active{
+	color: white;
+	text-decoration: none;	
+}
+
+a.btn-custom-2:visited{
+	color: white;
+	text-decoration: none;	
+}
+
+a.btn-custom-2:link, a.btn-custom-2:visited {
+	color: white;
 	text-decoration: none;
 }
 
@@ -255,5 +297,11 @@ margin-right: 5px;
 	margin-left: 12px;
 	margin-right: 12px;}
 
+
+}
+
+#tag-group {
+margin-top: 20px;
+margin-bottom: 20px;
 
 }
