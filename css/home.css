@@ -157,7 +157,7 @@ margin-top: 10px;}
 .tag {
 	color: #147632;
 	font-variant: small-caps;
-	margin-bottom: 0;
+	margin-bottom: 5px;
 	margin-right: 5px;
 	padding-top: 6px;
 	padding-bottom: 6px;
@@ -273,7 +273,7 @@ margin-right: 5px;
 
 /*insert media query for desktop and mobile, some funky transition stuff. Maybe check that out and how to delay*/
 
-@media screen and (max-width: 600px) and (min-width: 400px)  
+@media screen and (max-width: 600px)  
 {.grid-sizer, .grid-item {
 	width: 100%; 
 	min-height: 1px;
@@ -305,3 +305,30 @@ margin-top: 20px;
 margin-bottom: 20px;
 
 }
+
+
+@media screen and (max-width: 600px) 
+{.portrait {
+	width: 50%;
+	height: auto; 
+	float: right;
+	margin: 10px;
+}
+}
+
+@media screen and (min-width: 1200px) 
+{.portrait {
+	width: 20%; 
+	height: auto; 
+	float: right;
+	margin: 10px;
+}
+
+@media screen and (min-width: 601px) and (max-width: 1199px) {
+
+.portrait {
+	width: 30%;
+	height: auto;  
+	float: right;
+	margin: 10px;}}
+
