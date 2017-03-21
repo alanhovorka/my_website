@@ -306,9 +306,36 @@ margin-bottom: 20px;
 
 }
 
-
-@media screen and (max-width: 600px) 
-{.portrait {
+@media screen and (max-width: 600px)  
+{
+.portrait {
+	width: 50%;
+	height: auto; 
+	float: right;
+	margin: 10px;
+}
+}
+@media screen and (min-width: 601px)  
+{
+.portrait {
+	width: 45%;
+	height: auto; 
+	float: right;
+	margin: 10px;
+}
+}
+@media screen and (min-width: 680px)  
+{
+.portrait {
+	width: 35%;
+	height: auto; 
+	float: right;
+	margin: 10px;
+}
+}
+@media screen and (min-width: 770px)  
+{
+.portrait {
 	width: 50%;
 	height: auto; 
 	float: right;
@@ -316,10 +343,11 @@ margin-bottom: 20px;
 }
 }
 
-@media screen and (min-width: 601px) 
-{.portrait {
-	width: 20%; 
-	height: auto; 
-	float: right;
-	margin: 10px;
-}
+
+.red{
+    color:red;
+    }
+.form-area
+{
+
+	}
