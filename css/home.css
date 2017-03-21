@@ -300,6 +300,14 @@ margin-right: 5px;
 
 }
 
+.grid-sizer-2 {
+	width: 100%;
+}
+
+.grid-item-2 {
+	width:100%;
+}
+
 #tag-group {
 margin-top: 20px;
 margin-bottom: 20px;
