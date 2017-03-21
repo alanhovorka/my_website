@@ -316,19 +316,10 @@ margin-bottom: 20px;
 }
 }
 
-@media screen and (min-width: 1200px) 
+@media screen and (min-width: 601px) 
 {.portrait {
 	width: 20%; 
 	height: auto; 
 	float: right;
 	margin: 10px;
 }
-
-@media screen and (min-width: 601px) and (max-width: 1199px) {
-
-.portrait {
-	width: 30%;
-	height: auto;  
-	float: right;
-	margin: 10px;}}
-
