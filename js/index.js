@@ -8,7 +8,7 @@ $(window).scroll(function() {
 							});
 
 
-var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/12jMwpmqdbUUfcMHWg2GwGvu-d9BhaJOEsWjK1eoqHRc/pub?output=csv';
+var publicSpreadsheetUrl = '12jMwpmqdbUUfcMHWg2GwGvu-d9BhaJOEsWjK1eoqHRc';
 
   function init() {
     Tabletop.init( { key: publicSpreadsheetUrl,
@@ -18,8 +18,6 @@ var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/12jMwpmqdbUUf
 
   function showInfo(data, tabletop) {
     console.log('Successfully processed!')
-    d3.csv("https://docs.google.com/spreadsheets/d/12jMwpmqdbUUfcMHWg2GwGvu-d9BhaJOEsWjK1eoqHRc/pub?output=csv", 
-       function(error, data) {
   d3.select("#requests")
     .selectAll('h1')    
       .data(data) 
@@ -53,10 +51,9 @@ var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/12jMwpmqdbUUf
         return d.pg_cnt;
       })
       ;
-});
   }
 
-addEventListener('DOMContentLoaded', init)
+window.addEventListener('DOMContentLoaded', init)
 
 
 
@@ -68,6 +65,7 @@ var msnry = new Masonry( '.grid', {
   percentPosition: true,
   stagger: 10
 });
+
 
 $(document).ready(function(){ 
     $('#characterLeft').text('3600 characters left');
@@ -87,3 +85,10 @@ $(document).ready(function(){
         }
     });    
 });
+/*
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name");
+frmvalidator.addValidation("email","req","Please provide your email");
+frmvalidator.addValidation("email","email",
+"Please enter a valid email address");
+*/
