@@ -389,3 +389,8 @@ fieldset[disabled] .btn-success:focus,
 fieldset[disabled] .btn-success.focus {
   background-color: grey;
 }
+
+.btn-success .badge {
+  color: white;
+  background-color: grey;
+}

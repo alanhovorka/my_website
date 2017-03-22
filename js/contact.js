@@ -19,6 +19,7 @@ $(function () {
                     if (messageAlert && messageText) {
                         $('#contact-form').find('.messages').html(alertBox);
                         $('#contact-form')[0].reset();
+                        grecaptcha.reset();
                     }
                 }
             });
