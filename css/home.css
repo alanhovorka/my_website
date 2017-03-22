@@ -348,22 +348,20 @@ margin-bottom: 20px;
 }
 }
 
-
-
 .btn-success:focus,
 .btn-success.focus {
   color: #fff;
-  background-color: grey;
+  background-color: #3d7b8d;
 }
 .btn-success:hover {
   color: #fff;
-  background-color: grey;
+  background-color: #3d7b8d;
 }
 .btn-success:active,
 .btn-success.active,
 .open > .dropdown-toggle.btn-success {
   color: #fff;
-  background-color: grey;
+  background-color: #3d7b8d;
 }
 .btn-success:active:hover,
 .btn-success.active:hover,
@@ -375,7 +373,7 @@ margin-bottom: 20px;
 .btn-success.active.focus,
 .open > .dropdown-toggle.btn-success.focus {
   color: #fff;
-  background-color: grey;
+  background-color: #3d7b8d;
 }
 
 .btn-success.disabled:hover,
@@ -387,10 +385,10 @@ fieldset[disabled] .btn-success:focus,
 .btn-success.disabled.focus,
 .btn-success[disabled].focus,
 fieldset[disabled] .btn-success.focus {
-  background-color: grey;
+  background-color: #3d7b8d;
 }
 
 .btn-success .badge {
   color: white;
-  background-color: grey;
+  background-color: #3d7b8d;
 }
